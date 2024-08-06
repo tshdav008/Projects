@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: rgb(213, 231, 236); /* Color of the rest of the webpage */
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+}
+
+.square {
+  width: 500px; /* Width of the square */
+  height: 400px; /* Height of the square */
+  background-color: white; /* Color of the square */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  text-align: center; /* Center text inside the square */
+  padding: 20px; /* Padding inside the square */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add some shadow for a nice effect */
+  border-radius: 10px; /* Rounded corners */
+} 
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+} 
+
+.button-container{ 
+
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 10px;
+} 
+
+.content img {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+  border-radius: 50%; /* Optional: make the image circular */
+  margin-bottom: 10px; /* Space between image and name */ 
+  border: solid rgb(213, 231, 236);  
+  border-width: 5px;
+
+} 
+
+.button{
+  background-color: white; 
+  border-width: 0.5px;
+  padding: none;  
+}
+
+.button img{  
+  width: 40px;
+  height: 40px; 
+  margin: 5px;
+} 
+
+.name{
+  font-size: 20px; 
+  font-weight: bold;
+} 
+
+.position{
+  color: rgb(71, 198, 236); 
+}
+
+.review{
+  margin-top: 10px;
+  font-size: 15px; 
+  margin-bottom: 10px;
+} 
+
+.title{
+  font-size: 50px;
+}
