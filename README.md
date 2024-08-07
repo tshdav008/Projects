@@ -1,5 +1,3 @@
-Project Repository
-
 Welcome to my GitHub repository! This repository contains the code for various projects I have worked on. Below is a brief description of each project included in this repository.
 Projects
 
